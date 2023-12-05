@@ -4,14 +4,14 @@
 
 function showData() {
     console.log("variable name is", myName);
-    console.log("variable name is", age);
+    console.log("variable name is", myAge);
 
     // var myName = "Asad Riaz";
-    // let age = 19
+    // let myAge = 19
 }
 
 // showData()
-//ReferenceError: Cannot access 'age' before initialization
+//ReferenceError: Cannot access 'myAge' before initialization
 
 // explaination: var has global scope and can be accessed even before its initialization (Javascript moves declaration to the top but whwnever you access a variable before initialization it will store undefined in it) but let is block scoped and can only be used after intialization in JS.
 
